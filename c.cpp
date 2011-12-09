@@ -1,5 +1,8 @@
 #include<iostream>
+<<<<<<< HEAD
 #include <string.h>
+=======
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
 #include<algorithm>
 #include<utility>
 #include<stdio.h>
@@ -11,13 +14,17 @@ int n;
 
 
 void fresh(){
+<<<<<<< HEAD
     /*
+=======
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
      for(int x = 1;x <= 7;x ++)
              {
                  for(int y = 1;y <= 7; y++)
                  if(map[x][y] == -1)
                               swap(map[x][y],map[x][y+1]);
                               }
+<<<<<<< HEAD
                               */
     for(int x = 1; x <= 7;x ++)
     {
@@ -30,6 +37,9 @@ void fresh(){
                         break;
                 
 }
+=======
+                              }
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
 bool fall(int i,int x){
      int j=1;
      while(map[x][j] != -1) j++;
@@ -45,7 +55,11 @@ int sizex(int x,int y){
     tx = x;
     while(map[tx][y] !=-1 && tx>=1) tx--;
     ans += x - tx;
+<<<<<<< HEAD
     ans--;
+=======
+    ans++;
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
     return ans;
 }
 
@@ -57,7 +71,11 @@ int sizey(int x,int y){
     ty = y;
     while( map[tx][ty] != -1 && ty>=1) ty--;
     ans += y - ty;
+<<<<<<< HEAD
     ans--;
+=======
+    ans++;
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
     return ans;
 }
 void update(){
@@ -74,7 +92,11 @@ void update(){
              map[qc[i].first][qc[i].second] = -1;
      fresh();
      }
+<<<<<<< HEAD
      }
+=======
+     }    
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
 void print(){
      for(int y = 7;y >= 1;y--)
              {
@@ -83,6 +105,7 @@ void print(){
                          else printf("%d",map[x][y]);
                  printf("\n");
                  }
+<<<<<<< HEAD
      printf("\n");
 }
 main(){
@@ -90,11 +113,18 @@ main(){
       {
           scanf("%d",&n);
           if(n == 0)break;
+=======
+                 }
+main(){
+      while(cin>>n)
+      {
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
                    int bover = 0;
                    memset(map,-1,sizeof map);
                    for(int k = 0;k < n;k++)
                    {
                            int i,x;
+<<<<<<< HEAD
                         //   cin>>i>>x;
                            scanf("%d%d",&i,&x);
                            if(bover == 0){
@@ -107,6 +137,19 @@ main(){
                            update();
                            print();
                       //     printf("\n");
+=======
+                           cin>>i>>x;
+                           if(bover ==0){
+                           if(!fall(i,x)) 
+                           {
+                                          printf("Game Over!\n");
+                                          bover = 1;
+                                          continue;
+                                          }
+                           update();
+                           print();
+                           printf("\n");
+>>>>>>> 9b0a3453e70ac5912d1f39dd7564411a287657dd
                            }
                            }
                    if(bover == 0)
