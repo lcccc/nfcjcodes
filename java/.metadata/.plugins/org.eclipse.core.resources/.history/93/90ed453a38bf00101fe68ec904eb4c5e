@@ -1,0 +1,50 @@
+import java.math.*;
+import java.util.Scanner;
+import java.io.*;
+public class C {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		try{
+		Scanner cin = new Scanner(System.in);
+		while(cin.hasNext()){
+		int n,k;
+		n = cin.nextInt();
+		k = cin.nextInt();
+		//System.out.println(n);
+		BigInteger fz,fm,ans;
+		ans = new BigInteger("0");
+		fz = new BigInteger("1");
+		fm = new BigInteger("1");
+		int ct = 1;
+		for(int i=n;i>=1;i--)
+		{
+			fz = fz.multiply(new BigInteger(Integer.toString(i)));
+			fm = fm.multiply(new BigInteger(Integer.toString(ct)));
+			ct++;
+			System.out.println(fz);
+			System.out.println(fm);
+			System.out.println(ans);
+			if( n % 2 == 1 && n<=k) ans= ans.add(fz.divide(fm));	
+		}
+		fm = BigInteger.ONE;
+		for(int i = 1; i<=n;i++)
+			fm = fm.multiply(new BigInteger(Integer.toString(i)));
+		BigInteger big = fm.gcd(ans);
+		//System.out.println(fm);
+		//System.out.print(" ");
+		//System.out.println(big);
+		System.out.print(ans.divide(big));
+		System.out.print("/");
+		System.out.println(fm.divide(big));
+		}
+		}catch(Exception e)
+		{
+			return ;
+		}
+		}
+	}
+

@@ -1,0 +1,4 @@
+813k.cpp: In function ‘int graham(point*, int, int*)’:
+813k.cpp:26:17: warning: unused variable ‘k’
+813k.cpp: In function ‘int main()’:
+813k.cpp:46:25: warning: unused variable ‘res’

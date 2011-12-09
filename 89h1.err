@@ -1,0 +1,2 @@
+89h1.cpp: In function ‘int main()’:
+89h1.cpp:50:35: warning: overflow in implicit constant conversion

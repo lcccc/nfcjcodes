@@ -1,0 +1,2 @@
+/tmp/ccrzSwxf.o: In function `main':
+/home/nf/code/89c.cpp:76: warning: the `gets' function is dangerous and should not be used.

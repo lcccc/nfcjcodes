@@ -1,0 +1,7 @@
+void cal(int n)
+{
+    char *r=s;
+    int k=0;
+    height[rank[0]]=0;
+    fr(i, =1, <n+1, ++, rank[sa[i]]=i, =0, <n, ++,){ if (k)k--; int j=sa[rank[i]-1];while(r[i+k]==r[j+k]) k++; height[rank[i]]=k;}
+}

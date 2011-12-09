@@ -1,0 +1,3 @@
+g.cpp: In function ‘int main()’:
+g.cpp:31:26: warning: comparison between signed and unsigned integer expressions
+g.cpp:33:26: warning: comparison between signed and unsigned integer expressions

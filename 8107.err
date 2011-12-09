@@ -1,0 +1,2 @@
+8107.cpp: In function ‘int main()’:
+8107.cpp:32:16: warning: unused variable ‘k’

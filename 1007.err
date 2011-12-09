@@ -1,0 +1,2 @@
+1007.cpp: In function ‘int main()’:
+1007.cpp:58:63: warning: suggest parentheses around ‘&&’ within ‘||’

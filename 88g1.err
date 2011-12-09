@@ -1,0 +1,3 @@
+88g1.cpp: In function ‘int main()’:
+88g1.cpp:103:20: warning: unused variable ‘ans’
+88g1.cpp:115:13: warning: unused variable ‘q’

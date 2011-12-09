@@ -1,0 +1,2 @@
+88g.cpp: In function ‘int dfs(int)’:
+88g.cpp:63:27: warning: unused variable ‘table’

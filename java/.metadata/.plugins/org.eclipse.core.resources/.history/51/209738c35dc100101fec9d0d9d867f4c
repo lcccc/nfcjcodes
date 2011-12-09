@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class a88 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] gw = {"","I","II","III","IV","V","VI","VII","IIX","IX"};
+		String[] sw = {"","X","XX","XXX","XL","L","LX","LXX","XXC","XC"};
+		String[] bw = {"","C","CC","CCC","CD","D","DC","DCC","CCM","CM"};
+		String[] qw = {"","M","MM","MMM"};
+		int a,c;
+		String b;
+		Scanner cin = new Scanner(System.in);
+		a = cin.nextInt();
+		b = cin.next();
+		c = cin.nextInt(a);
+		System.out.println("a + b + c :"+a+" "+b+" "+c);
+	}
+
+}

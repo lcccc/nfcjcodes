@@ -1,0 +1,4 @@
+88j.cpp: In function ‘bool cmp(node, node)’:
+88j.cpp:28:52: warning: suggest parentheses around ‘&&’ within ‘||’
+88j.cpp:29:50: warning: suggest parentheses around ‘&&’ within ‘||’
+88j.cpp:30:66: warning: suggest parentheses around ‘&&’ within ‘||’
