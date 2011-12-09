@@ -1,6 +1,0 @@
-1001(TLE).cpp: In constructor ‘Graph::Adj::Adj(int, int, double, int)’:
-1001(TLE).cpp:31:16: warning: ‘Graph::Adj::w’ will be initialized after
-1001(TLE).cpp:30:17: warning:   ‘int Graph::Adj::b’
-1001(TLE).cpp:32:9: warning:   when initialized here
-1001(TLE).cpp: In member function ‘int Graph::bell(int, int)’:
-1001(TLE).cpp:82:41: warning: value computed is not used

@@ -1,2 +1,0 @@
-a.cpp: In function ‘int main()’:
-a.cpp:38:1: error: expected ‘;’ before ‘}’ token

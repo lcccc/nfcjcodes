@@ -1,4 +1,0 @@
-89e.cpp: In function ‘int main()’:
-89e.cpp:75:44: warning: suggest parentheses around ‘&&’ within ‘||’
-/tmp/ccOWs7ML.o: In function `main':
-/home/nf/code/89e.cpp:52: warning: the `gets' function is dangerous and should not be used.

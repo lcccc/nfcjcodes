@@ -1,2 +1,0 @@
-h.cpp: In function ‘std::string plural(std::string)’:
-h.cpp:20:10: warning: unused variable ‘ch’

@@ -1,3 +1,0 @@
-812c.cpp: In member function ‘bool Pa::operator<(const Pa&) const’:
-812c.cpp:30:22: warning: suggest parentheses around ‘&&’ within ‘||’
-812c.cpp:31:22: warning: suggest parentheses around ‘&&’ within ‘||’
